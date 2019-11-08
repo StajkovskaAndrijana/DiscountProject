@@ -1,0 +1,135 @@
+@media only screen and (max-width: 640px) {
+
+    header h1,
+    .footer h1 {
+        font-size: 28px;
+    }
+
+    header p,
+    .footer p {
+        font-size: 12px;
+    }
+
+    .search_discount,
+    .buy_card_form input,
+    .create_card_form input,
+    .create_card_form textarea {
+        padding: 20px;
+    }
+
+    .search_category {
+        margin: 0px;
+    }
+
+    .search .fas {
+        display: none;
+    }
+
+    .yellow-btn {
+        padding: 12px 25px;
+    }
+
+    .thumbnail-grid {
+        height: 380px;
+    }
+
+    /*---- Create Card ---- */
+    .create_card_form {
+        font-size: 14px
+    }
+
+    .create_card_form input[type="file"] {
+        width: 200px;
+        height: 150px;
+    }
+
+    .thumbnail_upload {
+        width: 200px;
+        height: 150px;
+        top: 25px;
+    }
+
+    .radio-btn {
+        margin: 10px;
+    }
+
+    .send-btn {
+        padding: 14px 80px;
+    }
+
+    /* ---- Deal Detail ----*/
+    .thumbnail-logo {
+        width: 50%;
+    }
+
+    .deal_detail h1 {
+        font-size: 28px;
+    }
+
+    .deal_detail h3 {
+        font-size: 18px;
+    }
+
+    .carousel-control .fas {
+        margin-top: 105px;
+    }
+
+    .description {
+        margin-bottom: 30px;
+    }
+
+    .map iframe {
+        width: 260px;
+        height: 195px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    header h1,
+    .footer h1 {
+        font-size: 30px;
+    }
+
+    header p,
+    .footer p {
+        font-size: 12px;
+    }
+
+    .search_category {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .thumbnail .caption_list_view h3 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .thumbnail .body_list_view {
+        margin-left: 12%;
+        padding: 0px 0px 14px 30px;
+    }
+
+    /*---- Create Card ---- */
+    .create_card_form {
+        font-size: 15px;
+    }
+
+    .radio-btn {
+        margin: 8px;
+    }
+
+    /* ---- Deal Detail ---- */
+    .carousel-control .fas {
+        margin-top: 110px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .thumbnail-grid {
+        height: 410px;
+    }
+}

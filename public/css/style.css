@@ -1,0 +1,486 @@
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #EBECF5;
+}
+
+header {
+    background-color: #FCD232;
+    padding: 45px 0px;
+}
+
+header h1,
+.footer h1 {
+    font-size: 43px;
+}
+
+header p,
+.footer p {
+    font-size: 18px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #383537;
+}
+
+.yellow {
+    color: #FCD232;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.grey-btn {
+    background-color: #383537;
+}
+
+.grey-btn:hover {
+    color: white;
+}
+
+.search {
+    background-color: #383537;
+    padding: 20px 0px;
+}
+
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.search_discount {
+    padding: 20px 290px 20px 30px;
+    border-radius: 20px;
+}
+
+.search_category {
+    margin-left: 20px;
+    padding: 0px 60px 0px 30px;
+    -webkit-appearance: none;
+    background: #fff url("https://www.petfinder.com/assets/www/media/svgs/ui/icon-chevronDown_colorDark.svg") no-repeat right 20px center;
+    background-size: 14px 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 42px;
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+.fas {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fa-list {
+    margin-left: 15px;
+}
+
+.grid-btn,
+.list-btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.thumbnail-grid {
+    border-radius: 25px;
+    height: 380px;
+}
+
+.thumbnail-list {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    height: 200px;
+    padding: 20px;
+}
+
+.thumbnail-logo-grid {
+    width: 50%;
+}
+
+.thumbnail-logo-list {
+    width: 25%;
+}
+
+.thumbnail-list img {
+    margin: 0px;
+}
+
+
+.thumbnail .caption_grid_view {
+    padding: 0px 30px 10px 30px;
+}
+
+.thumbnail .caption_grid_view h3 {
+    font-size: 19px;
+}
+
+.thumbnail .caption_list_view h3 {
+    font-size: 20px;
+}
+
+.thumbnail .body_grid_view {
+    padding: 0px 30px 10px 30px;
+}
+
+.thumbnail .body_list_view {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 0px 14px 30px;
+    margin-left: 26%;
+    justify-self: end;
+}
+
+.card_discount_grid {
+    margin-top: -6px;
+}
+
+.card_category_grid {
+    padding: 8px 30px;
+    border: 2px solid #383537;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 8px 0px;
+    pointer-events: none;
+}
+
+.thumbnail .caption_grid_view p:nth-child(3) {
+    font-size: 24px;
+}
+
+.body_grid_view p,
+.body_list_view p {
+    font-size: 25px;
+}
+
+.body_grid_view button {
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.body_list_view button {
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+    font-size: 25px;
+}
+
+.fa-thumbs-up {
+    margin-right: 15px;
+}
+
+.fa-thumbs-down {
+    margin-left: 15px;
+}
+
+.footer {
+    background-color: #383537;
+    padding: 45px 0px;
+}
+
+.yellow-btn {
+    background-color: #FCD232;
+    margin-top: 25px;
+    border-radius: 30px;
+    padding: 16px 50px;
+}
+
+/* ----- Buy Card -----*/
+
+.buy_card_form,
+.create_card_form {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.buy_card_form input,
+.create_card_form input,
+.create_card_form textarea {
+    padding: 20px 350px 20px 30px;
+    border-radius: 30px;
+    color: #9d9d9d;
+}
+
+/*----- Create Card -----*/
+
+.create_card_form .form-group {
+    margin-top: 10px;
+}
+
+.create_card_form input[type="file"] {
+    border: dotted;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+}
+
+.thumbnail_upload {
+    position: absolute;
+    border-radius: 20px;
+    visibility: hidden;
+    width: 250px;
+    height: 200px;
+    top: 30px;
+}
+
+.radio-btn {
+    margin-right: 10px;
+    padding: 0px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.radio-btn span {
+    text-align: center;
+    padding: 15px 10px;
+    display: block;
+}
+
+.radio-btn input:checked+span {
+    background-color: #FCD232;
+}
+
+.send-btn {
+    padding: 16px 100px;
+    border-radius: 40px;
+    margin: 25px 0px 20px 10px;
+}
+
+.deal_detail .row {
+    margin-top: 20px;
+}
+
+.buy-now-btn {
+    border-radius: 38px;
+    padding: 12px 90px;
+}
+
+/* ---- Deal Detail ----- */
+.one-image {
+    margin-bottom: 10px;
+}
+
+.one-image img {
+    border-radius: 20px;
+    height: 400px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+/*--- Carousel ----*/
+.carousel-inner img {
+    border-radius: 20px;
+
+}
+
+.carousel-img {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-inner .item.left.active {
+    transform: translateX(-33%);
+}
+
+.carousel-inner .item.right.active {
+    transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+    transform: translateX(33%)
+}
+
+.carousel-inner .item.prev {
+    transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+    transform: translateX(0);
+}
+
+.carousel-control.left {
+    visibility: hidden;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    background-color: #383537;
+    opacity: 1;
+    width: 8%;
+}
+
+.carousel-control .fas {
+    color: #FCD232;
+    margin-top: 70px;
+}
+
+.company-details {
+    padding: 30px;
+    background-color: #383537;
+    border: 1px solid #383537;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.company-details h2 {
+    margin: 0px 0px 20px 0px;
+}
+
+.like-dislike {
+    margin-bottom: 20px;
+}
+
+
+.like-dislike .fas {
+    font-size: 25px;
+}
+
+.like-dislike span {
+    font-size: 28px;
+}
+
+.like-dislike .fa-thumbs-up {
+    color: rgb(5, 199, 5);
+    margin-right: 5px;
+}
+
+.like-dislike .fa-thumbs-down {
+    color: red;
+    margin-left: 70px;
+    margin-right: 5px;
+}
+
+.company-details p,
+.map iframe {
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.map iframe {
+    border-radius: 20px;
+    width: 325px;
+    height: 240px;
+}
+
+
+/* ---- Admin Panel -----*/
+
+.navbar-default {
+    background-color: #FCD232;
+    border-color: #FCD232;
+}
+
+.navbar-header h4 {
+    margin-top: 16px;
+}
+
+.header-inner-profile-btn {
+    padding: 0;
+    margin: 0;
+    width: 215px;
+    padding-left: 62px;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+}
+
+.header-inner-profile-btn>span {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.user-dropdown {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 15px 0 5px 20px;
+}
+
+.user-dropdown a {
+    color: #383537;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #383537;
+}
+
+.nav-tabs>li>a,
+.nav-tabs>li>a:active,
+.nav-tabs>li>a:hover {
+    border: 1px solid #383537;
+    background-color: #EBECF5;
+    color: #383537;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #555;
+    border-bottom-color: #555;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
